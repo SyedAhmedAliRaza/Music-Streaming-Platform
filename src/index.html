@@ -1,1 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KARVAN - Musical Streaming Experience</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="min-h-screen dark transition-colors duration-300 relative">
+    <div class="music-particles"></div>
+    <button id="theme-toggle" class="fixed top-4 right-4 p-3 rounded-full funky-btn text-white z-50" aria-label="Toggle theme">
+        <i id="theme-icon" class="fas fa-moon"></i>
+    </button>
+    <header class="music-overlay text-white py-24 section-light relative lightning-border">
+        <div class="container mx-auto px-6 text-center relative z-10">
+            <h1 class="text-5xl md:text-6xl font-bold mb-6 pulse-wave">KARVAN: Your Sound. Your Way.</h1>
+            <p class="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">Flow with movies, music, and shows that hit every note of your vibe.</p>
+            <a href="#pricing" class="inline-block funky-btn text-white font-semibold text-lg">Start the Beat</a>
+        </div>
+        <div class="wave-pulse">
+            <div class="wave-line"></div>
+            <div class="wave-line"></div>
+            <div class="wave-line"></div>
+            <div class="wave-line"></div>
+            <div class="wave-line"></div>
+            <div class="wave-line"></div>
+        </div>
+    </header>
+    <section id="features" class="py-20 section-dark music-overlay relative lightning-border">
+        <div class="swirly-lines">
+            <div class="swirly-line"></div>
+            <div class="swirly-line"></div>
+            <div class="swirly-line"></div>
+            <div class="swirly-line"></div>
+        </div>
+        <div class="container mx-auto px-6 relative z-10">
+            <h2 class="text-4xl font-bold text-center mb-16 text-yellow-400">Features That Keep You in Tune</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="music-card lightning-border">
+                    <i class="fas fa-music text-5xl text-orange-500 mb-4"></i>
+                    <h3 class="text-2xl font-semibold mb-3 text-yellow-400">Vibrant Content Mix</h3>
+                    <p class="text-gray-300 light:text-gray-700">Stream thousands of movies, shows, and playlists with soulful variety.</p>
+                </div>
+                <div class="music-card lightning-border">
+                    <i class="fas fa-headphones text-5xl text-orange-500 mb-4"></i>
+                    <h3 class="text-2xl font-semibold mb-3 text-yellow-400">Seamless Device Sync</h3>
+                    <p class="text-gray-300 light:text-gray-700">Flow effortlessly across phones, tablets, and TVs.</p>
+                </div>
+                <div class="music-card lightning-border">
+                    <i class="fas fa-download text-5xl text-orange-500 mb-4"></i>
+                    <h3 class="text-2xl font-semibold mb-3 text-yellow-400">Offline Groove</h3>
+                    <p class="text-gray-300 light:text-gray-700">Download your favorites and vibe anywhere, anytime with no Wi-Fi needed.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="testimonials" class="py-20 section-light music-overlay relative lightning-border">
+        <div class="swirly-lines">
+            <div class="swirly-line"></div>
+            <div class="swirly-line"></div>
+            <div class="swirly-line"></div>
+            <div class="swirly-line"></div>
+        </div>
+        <div class="container mx-auto px-6 relative z-10">
+            <h2 class="text-4xl font-bold text-center mb-16 text-yellow-400">Fans Feelin’ the KARVAN Flow</h2>
+            <div class="flex flex-col lg:flex-row gap-8">
+                <div class="flex-1 music-card lightning-border">
+                    <p class="text-gray-300 light:text-gray-700 mb-4 text-lg">"KARVAN’s music and movie mix is pure bliss. Offline mode keeps my vibe going!"</p>
+                    <p class="font-semibold text-orange-500">Syed Ahmed</p>
+                </div>
+                <div class="flex-1 music-card lightning-border">
+                    <p class="text-gray-300 light:text-gray-700 mb-4 text-lg">"The sleek design and smooth streaming make every session a jam."</p>
+                    <p class="font-semibold text-orange-500">Ali Raza</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="pricing" class="py-20 section-dark music-overlay relative lightning-border">
+        <div class="swirly-lines">
+            <div class="swirly-line"></div>
+            <div class="swirly-line"></div>
+            <div class="swirly-line"></div>
+            <div class="swirly-line"></div>
+        </div>
+        <div class="container mx-auto px-6 relative z-10">
+            <h2 class="text-4xl font-bold text-center mb-16 text-yellow-400">Choose Your Vibe</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="music-card lightning-border">
+                    <h3 class="text-3xl font-semibold mb-4 text-yellow-400">Basic</h3>
+                    <p class="text-4xl font-bold mb-6 text-orange-500">$9.99<span class="text-lg">/mo</span></p>
+                    <ul class="text-gray-300 light:text-gray-700 mb-6 text-left px-6">
+                        <li class="mb-2">SD Streaming</li>
+                        <li class="mb-2">1 Device</li>
+                        <li>Basic Library Access</li>
+                    </ul>
+                    <a href="#" class="inline-block funky-btn text-white font-semibold">Choose Plan</a>
+                </div>
 
+               <span class="absolute top-[5.6rem] left-1/2 transform -translate-x-1/2 bg-yellow-400 text-black px-4 py-1 rounded-full text-sm font-semibold z-10">Top Pick</span>
+                <div class="music-card lightning-border relative">               
+                    <h3 class="text-3xl font-semibold mb-4 text-yellow-400">Standard</h3>
+                    <p class="text-4xl font-bold mb-6 text-orange-500">$14.99<span class="text-lg">/mo</span></p>
+                    <ul class="text-gray-300 light:text-gray-700 mb-6 text-left px-6">
+                        <li class="mb-2">HD Streaming</li>
+                        <li class="mb-2">2 Devices</li>
+                        <li>Full Library Access</li>
+                    </ul>
+                    <a href="#" class="inline-block funky-btn text-white font-semibold">Choose Plan</a>
+                </div>
+                <div class="music-card lightning-border">
+                    <h3 class="text-3xl font-semibold mb-4 text-yellow-400">Premium</h3>
+                    <p class="text-4xl font-bold mb-6 text-orange-500">$19.99<span class="text-lg">/mo</span></p>
+                    <ul class="text-gray-300 light:text-gray-700 mb-6 text-left px-6">
+                        <li class="mb-2">4K Streaming</li>
+                        <li class="mb-2">4 Devices</li>
+                        <li>Full Library + Offline</li>
+                    </ul>
+                    <a href="#" class="inline-block funky-btn text-white font-semibold">Choose Plan</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-20 music-overlay text-white section-light relative lightning-border">
+        <div class="swirly-lines">
+            <div class="swirly-line"></div>
+            <div class="swirly-line"></div>
+            <div class="swirly-line"></div>
+            <div class="swirly-line"></div>
+        </div>
+        <div class="container mx-auto px-6 text-center relative z-10">
+            <h2 class="text-4xl font-bold mb-6 text-yellow-400 pulse-wave">Get in the KARVAN Groove!</h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">Start with a 7-day free trial and vibe with the ultimate streaming experience.</p>
+            <a href="#pricing" class="inline-block funky-btn text-white font-semibold text-lg">Sign Up Now</a>
+        </div>
+    </section>
+    <section class="py-10 section-dark music-overlay relative lightning-border">
+        <div class="swirly-lines">
+            <div class="swirly-line"></div>
+            <div class="swirly-line"></div>
+            <div class="swirly-line"></div>
+            <div class="swirly-line"></div>
+        </div>
+        <div class="container mx-auto px-6 text-center relative z-10">
+            <p class="text-lg font-semibold text-black">&copy; 2025 KARVAN. All rights reserved.</p>
+            <div class="mt-4 flex justify-center gap-6">
+                <a href="#" class="text-blue-400 hover:text-white"><i class="fab fa-twitter text-2xl"></i></a>
+                <a href="#" class="text-red-500 hover:text-white"><i class="fab fa-instagram text-2xl"></i></a>
+                <a href="#" class="text-blue-600 hover:text-white"><i class="fab fa-facebook text-2xl"></i></a>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
