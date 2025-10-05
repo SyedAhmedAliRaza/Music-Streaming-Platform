@@ -1,6 +1,6 @@
 # 🎵 KARVAN — Your Sound. Your Way.
 
-> A futuristic **music streaming platform** that blends rhythm, visuals, and seamless interactivity — built with **HTML**, **Tailwind CSS**, and **JavaScript**.
+>  A futuristic music streaming experience built with HTML, CSS, JavaScript & Tailwind CSS. KARVAN redefines online streaming with an electrifying interface, smooth theme transitions, and dynamic animations. Designed to blend music, movies, and vibes into one immersive experience.
 
 ---
 
