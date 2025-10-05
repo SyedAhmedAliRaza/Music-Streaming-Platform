@@ -37,5 +37,5 @@ With animated gradients, glowing effects, and theme transitions, every beat feel
 
 ---
 
-## 📂 Project Structure
+
 
